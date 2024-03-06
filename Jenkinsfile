@@ -35,7 +35,7 @@ pipeline {
             }
             post {
                 failure {
-                    echo 'pipeline deployment failed'
+                    eco 'pipeline deployment failed'
                 }
             }
         }
